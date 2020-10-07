@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+jupyterlab = "*"
+wandb = "*"
+ipython = "*"
+ipywidgets = "*"
+wget = "*"
+torch = "*"
+pandas = "*"
+transformers = "*"
+
+[requires]
+python_version = "3.8"
